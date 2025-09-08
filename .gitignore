@@ -1,0 +1,383 @@
+# ================================
+# Hair Trend Analyzer .gitignore
+# ================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+build/
+dist/
+out/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# ================================
+# Operating System Files
+# ================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ================================
+# Editor directories and files
+# ================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ================================
+# Application specific
+# ================================
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Generated data
+data/trends/
+data/exports/
+data/cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# PM2
+.pm2/
+ecosystem.config.js.bak
+
+# Docker
+.dockerignore.bak
+
+# ================================
+# Secrets and Security
+# ================================
+
+# API Keys and secrets
+secrets/
+.secrets
+*.pem
+*.key
+*.crt
+*.p12
+
+# Google Cloud credentials
+google-credentials.json
+service-account-key.json
+
+# ================================
+# Testing
+# ================================
+
+# Test results
+test-results/
+coverage/
+.coverage
+htmlcov/
+
+# Jest
+jest_0/
+
+# ================================
+# Build tools
+# ================================
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# Parcel
+.parcel-cache/
+
+# ================================
+# Monitoring and Analytics
+# ================================
+
+# New Relic
+newrelic_agent.log
+
+# Sentry
+.sentryclirc
+
+# ================================
+# Package managers
+# ================================
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# npm
+.npmrc.local
+
+# pnpm
+.pnpm-store/
+
+# ================================
+# Cloud platforms
+# ================================
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# AWS
+.aws/
+
+# Heroku
+.env.production
+
+# ================================
+# Backup files
+# ================================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# ================================
+# Generated documentation
+# ================================
+
+docs/api/generated/
+docs/coverage/
+
+# ================================
+# Local development
+# ================================
+
+# Local configuration overrides
+config.local.js
+config.local.json
+
+# Development databases
+dev.db
+development.db
+
+# Local SSL certificates
+ssl/
+certs/
+
+# ================================
+# Performance monitoring
+# ================================
+
+# Lighthouse reports
+lighthouse-reports/
+
+# Bundle analyzer reports
+bundle-analyzer-report.html
+
+# ================================
+# Mobile development (if added later)
+# ================================
+
+# React Native
+.expo/
+.expo-shared/
+
+# ================================
+# Miscellaneous
+# ================================
+
+# Runtime configuration
+.runtime/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Ignore everything in logs except .gitkeep
+logs/*
+!logs/.gitkeep
+
+# Ignore everything in uploads except .gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# ================================
+# Project specific ignores
+# ================================
+
+# Hair trend analysis results (sensitive data)
+analysis-results/
+trend-data/
+user-data/
+
+# Generated scripts and content
+generated-scripts/
+ai-generated-content/
+
+# Performance benchmarks
+benchmarks/
+performance-reports/
+
+# User uploads and avatars
+user-uploads/
+avatars/
+
+# Cached API responses
+.cache-api/
+api-cache/
